@@ -1,0 +1,173 @@
+.carrello {
+    padding-top: 2%;
+    font-family: 'Noto Sans', sans-serif;
+    height: 80%;
+    width: 37%;
+    background-color: white;
+    color: black;
+    padding: 20px;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    margin-top: 4%;
+    display: flex;
+    flex-direction: column;
+    border: 3px solid;
+    border-color: #f5f5f5;
+}
+
+.carrello .totale{
+    display: flex;
+    flex: row;
+    padding-top: 2%;
+    color: #006400;
+    padding-left: 10%;
+}
+.carrello .totale .tot{
+    padding-right: 110%;
+}
+
+
+.carrello h3 {
+    color: #006400;
+    margin-bottom: 3%;
+    padding-top: 2%;
+    font-size: x-large;
+}
+
+.carrello .lista {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+}
+
+.carrello .prodotto {
+    display: flex;
+    align-items: center;
+    gap: 10px;  
+    border-bottom: 1px solid lightgray; /* Usa il colore lightgray invece di specificare il colore */
+    width: 100%; /* Imposta la larghezza al 100% per riempire l'intera riga */
+    box-sizing: border-box; /* Assicurati che il bordo sia incluso nella larghezza dell'elemento */
+}
+
+.carrello .lista img {
+    min-width: 13%;
+    height: auto;
+}
+
+.carrello .prodotto img {
+    width: 30px; /* Regola la larghezza massima dell'immagine del prodotto */
+    height: auto;
+    padding-right: 10%;
+}
+.carrello .prodotto .name{
+    padding-right: 10%;
+}
+.carrello .prodotto p {
+    width: 15%;
+    color: #006400;
+}
+.carrello .prodotto .quantity{
+    font-size: small;
+}
+.carrello .prodotto .delete{
+    color: red;
+    cursor: pointer;
+    width: 3%;
+    height: auto;
+}
+.carrello .prodotto .delete:hover{
+    color: rgb(234, 0, 0);
+}
+
+
+.carrello button {
+    margin-top: 3%;
+    padding: 10px;
+    background-color: #55cc55;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    width: 20%;
+    height: auto;
+    border-radius: 0;
+    
+}
+
+.carrello button:hover {
+    background-color: #22973d;
+}
+.profile-window{
+    position: absolute;
+    bottom: 78%;
+    font-size: 12px;
+    border: 1ch;
+    left: 85%;
+    background-color: white;
+    width: 12%;
+    border: 1px solid;
+    border-color: lightgray;
+  }
+  .profile-window button{
+    width: 100%;
+    height: 19px;
+    font-size: 13px;
+    background-color: white;
+    border-radius: 0;
+    color: red;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 2px;
+  }
+/* preferiti.css */
+
+.carrello {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding-top: 2%;
+  }
+  
+  h3 {
+    color: #333;
+  }
+  
+  .lista {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+  }
+  
+  .prodotto {
+    position: relative;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  .prodotto img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  .name {
+    font-weight: bold;
+    color: #333;
+  }
+  
+  /* Stile per l'icona di eliminazione */
+  .prodotto svg {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+  }
+  
+  /* Stile hover per l'icona di eliminazione */
+  .prodotto:hover svg {
+    color: darkred;
+  }

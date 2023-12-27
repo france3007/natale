@@ -1,0 +1,54 @@
+
+.preferiti {
+    width: 905;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h3 {
+    color: #333;
+    font-size: large;
+  }
+  
+  .lista {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(170px, 1fr));
+    gap: 20px;
+    justify-content: space-evenly; /* Aggiunto per migliorare l'allineamento */
+  }
+  
+  
+  
+  .prodotto {
+    position: relative;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  .prodotto img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  .name {
+    font-weight: bold;
+    color: #333;
+  }
+  
+  /* Stile per l'icona di eliminazione */
+  .prodotto svg {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+  }
+  
+  /* Stile hover per l'icona di eliminazione */
+  .prodotto:hover svg {
+    color: darkred;
+  }
+  

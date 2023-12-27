@@ -1,0 +1,11 @@
+/* Barra di scorrimento WebKit (Chrome, Safari, nuove versioni di Edge) */
+::-webkit-scrollbar {
+    width: 10px;
+    height: 5px;
+    
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: lightgray;
+    border-radius: 8px;
+  }

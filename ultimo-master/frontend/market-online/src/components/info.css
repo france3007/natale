@@ -1,0 +1,31 @@
+/* info.css */
+
+.information {
+    display: flex;
+    width: 100%;
+  }
+  
+  .image {
+    flex: 1;
+    background-image: url('../assets/sfondo.jpg');
+    height: 75vh;
+  }
+  
+  .info {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  .info h3 {
+    color: #22973d; 
+    font-size: 40px;
+  }
+  
+  .info p {
+    text-align: justify;
+    color: black; 
+    font-size: 17px;
+  }

@@ -1,0 +1,86 @@
+.head {
+    background-color: #28a745;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Ortoshop {
+    color: white;
+    text-decoration: none;
+}
+
+/* Stile della lista */
+.head ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    text-align: center;
+}
+
+.head ul li {
+    margin-top: 5px;
+    margin-right: 20px;
+    cursor: pointer;
+    transition: border 0.3s ease;
+    color: white;
+    font-size: 18px; 
+}
+
+.head ul li:hover {
+    border-bottom: 2px solid white;
+    margin-bottom: -2px;
+}
+
+/* Stile dell'h1 */
+.head h1 {
+    margin: 0;
+    padding-right: 10px;
+    color: white;
+    font-size: 27px; 
+}
+
+/* Stile del link attivo */
+.head ul li.active {
+    border-bottom: 2px solid white;
+}
+
+/* Stile del container di ricerca */
+.container-ricerca {
+    display: flex;
+    align-items: center;
+    width: 40%;
+    height: 100%;
+}
+
+/* Stile dell'input di ricerca */
+.head input[type="text"] {
+    width: 80%; 
+    height: 35px;
+    border: none;
+    margin-left: -6px; /* Per unire il bordo dell'input con il bottone */
+    border-radius: 4px;
+}
+.head input[type="text"]:focus {
+    outline: none;
+    border: none;
+}
+
+/* Stile del bottone di ricerca */
+.head .search {
+    padding: 5px 10px;
+    background-color: white;
+    color: #218838;
+    border: none;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    font-size: medium;
+    height: 37px;
+}
+.shop{
+    text-decoration: none;
+    color: inherit;
+}

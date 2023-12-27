@@ -1,0 +1,132 @@
+.register {
+    display: flex;
+    width: 60%;
+    height: 85vh;
+    margin-left: 20%;
+    margin-top: 3.5%;
+}
+
+.title {
+    margin-bottom: 5%;
+    margin-top: 3%;
+    color: #55cc55;
+}
+
+form {
+    flex: 1;
+    background-color: whitesmoke;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+form .google{
+    width: 90%;
+    padding: 10px;
+    margin-top: 10%;
+    background-color: #55cc55;
+    color: white;
+    border-color: whitesmoke;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 17px;
+    border: none;
+    font-weight: bold;
+}
+form .facebook{
+    width: 90%;
+    padding: 10px;
+    margin-top: 4%;
+    background-color: #55cc55;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 17px;
+    font-weight: bold;
+}
+.benvenuto {
+    flex: 1;
+    padding: 20px;
+    background: linear-gradient(to bottom, #28a745, #28a745);
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.benvenuto h1 {
+    text-align: center;
+    font-size: 35px;
+    margin-bottom: 3%;
+}
+
+.benvenuto p {
+    text-align: center;
+    font-size: 18px;
+}
+
+
+form p {
+    text-align: center;
+    margin: 20px 0; 
+    position: relative;
+    width: 100%;
+    color: rgb(128, 211, 128);
+}
+
+form p:before,
+form p:after {
+    content: "";
+    display: block;
+    height: 1px;
+    background-color:rgb(128, 211, 128); 
+    position: absolute;
+    top: 50%;
+    width: 40%; 
+}
+
+form p:before {
+    left: 0;
+}
+
+form p:after {
+    right: 0;
+}
+
+
+
+form input {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #2ecc71;
+    border-radius: 4px;
+}
+
+form button.submit {
+    width: 100%;
+    padding: 10px;
+    margin-top: 3%;
+    background-color: #55cc55;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 17px;
+}
+
+
+form p {
+    text-align: center;
+    margin: 10px 0;
+}
+
+.title h1 {
+    margin: 0;
+}
+
+form span{
+    margin-top: 5px;
+}
